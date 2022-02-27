@@ -5,11 +5,11 @@ for ($i = 0; $i < $num; $i++) {
         for ($j = 0; $j < $num; $j++) {
             echo ("*");
         }
-        echo ("\n");
+        echo (PHP_EOL);
     } else {
         for ($j = 0; $j < $i; $j++) {
             echo (" ");
         }
-        echo ("*\n");
+        echo ("*".PHP_EOL);
     }
 }
